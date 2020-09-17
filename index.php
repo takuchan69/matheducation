@@ -23,13 +23,13 @@
                  </ul>
                  <div id='parent'>
                      <article class='introduce'>
-                          <a href='method.php'><p>our method</p></a>
+                          <a href='method.php'><p>学習舎のやり方</p></a>
                      </article>
                      <article class='introduce'>
-                          <a href='parents'> <p>for parents</p></a>
+                          <a href='parents'> <p>保護者の皆様へ</p></a>
                      </article>
                      <article class='introduce'>
-                          <a href='about'> <p>about us</p></a>
+                          <a href='about'> <p>学習舎について</p></a>
                      </article>
                  </div>
          </section>

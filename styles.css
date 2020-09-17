@@ -2,3 +2,37 @@ body{margin:0;
      background:#fff;
      text-align:center;
      }
+/* index page */
+h1{color:blue;
+   font-size:40px;
+   letter-spacing: 0.7em;
+   text-shadow:0px 1px 3px #666;
+}
+h1 span{color:red;
+}
+h3{color:gray;
+  font-size:25px;
+  letter-spacing: 0.8em;
+  text-shadow: 0px 1px 1px #000;
+}
+ul {width:auto;
+    background-color: #ffe;
+}
+ul > li{list-style-type: none;
+        font-size:25px;
+        color:#000;
+        line-height: 2em;
+        padding-bottom: 5px;
+}
+#parent{width:auto;
+        height:150px;
+        background:#fff;
+        display:flex;
+        flex-wrap:wrap;
+
+}
+.introduce{width:30%;
+           height:100%;
+           background:#ffe;
+           margin:0 auto;
+}

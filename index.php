@@ -10,18 +10,31 @@
        </head>
        <body>
          <header>
-               <h1>学習舎のオンライン数学講座</h1>
+               <h1>学習舎の<span>オンライン数学講座</span></h1>
          </header>
          <section id='container'>
          　　　　　<h3>オンラインでも成績を伸ばすには・・・</h3>
+                 <img src='' width='300' height='300' alt='top-image'>
               　　<ul>
-                　　　<li>出題される問題タイプを全て習うこと</li>
-                     <li>類題を「実際に自分で解いてみること」</li>
-                     <li>復習すること（身につけることですね）</li>
+
+                　　　<li>1.出題される問題タイプを全て習うこと</li>
+                     <li>2.類題を「実際に自分で解いてみること」</li>
+                     <li>3.復習すること</li>
                  </ul>
+                 <div id='parent'>
+                     <article class='introduce'>
+                          <a href='method.php'><p>our method</p></a>
+                     </article>
+                     <article class='introduce'>
+                          <a href='parents'> <p>for parents</p></a>
+                     </article>
+                     <article class='introduce'>
+                          <a href='about'> <p>about us</p></a>
+                     </article>
+                 </div>
          </section>
          <footer>
-         　　　　　<h3>学習舎の数学講座 &rquto; &copy; &left;</h3>
+         　　　　　<h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
          </footer>
        </body>
 </html>

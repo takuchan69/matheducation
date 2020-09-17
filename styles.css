@@ -10,6 +10,24 @@ h1{color:blue;
 }
 h1 span{color:red;
 }
+/* toolbar parts */
+#toolbar{display:flex;
+         flex-wrap:wrap;
+         justify-content: space-around;
+         align-items: space-between;
+         width:100%;
+         height:80px;
+}
+.toolbar_name{width:30%;
+              height: 100%;
+              background:#ffe;
+              line-height: 80px;
+              font-family: serif;
+
+}
+.toolbar_name > a{
+
+}
 h3{color:gray;
   font-size:25px;
   letter-spacing: 0.8em;

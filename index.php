@@ -9,14 +9,14 @@
          <link rel='stylesheet' href='styles.css'>
        </head>
        <body>
-         <header>
-               <h1>学習舎の<span>オンライン数学講座</span></h1>
-         </header>
-         <div id='toolbar'>
-                <section class='toolbar_name'>講座の受講方法</section>
-                <section class='toolbar_name'>講座の内容</section>
-                <section class='toolbar_name'>体験授業</section>
-              </div>
+             <header>
+                   <h1>学習舎の<span>オンライン数学講座</span></h1>
+             </header>
+             <div id='toolbar'>
+                    <section class='toolbar_name'><a href='lessonstyle.php'>講座の受講style</a></section>
+                    <section class='toolbar_name'><a href='syllabus.php'>講座の内容</a></section>
+                    <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
+             </div>
          <section id='container'>
          　　　　　<h3>オンラインでも成績を伸ばすには・・・</h3>
                  <img src='' width='300' height='300' alt='top-image'>
@@ -31,10 +31,10 @@
                           <a href='method.php'><p>学習舎のやり方</p></a>
                      </article>
                      <article class='introduce'>
-                          <a href='parents'> <p>保護者の皆様へ</p></a>
+                          <a href='parent.php'> <p>保護者の皆様へ</p></a>
                      </article>
                      <article class='introduce'>
-                          <a href='about'> <p>学習舎について</p></a>
+                          <a href='about.php'> <p>学習舎について</p></a>
                      </article>
                  </div>
          </section>

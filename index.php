@@ -12,6 +12,11 @@
          <header>
                <h1>学習舎の<span>オンライン数学講座</span></h1>
          </header>
+         <div id='toolbar'>
+                <section class='toolbar_name'>講座の受講方法</section>
+                <section class='toolbar_name'>講座の内容</section>
+                <section class='toolbar_name'>体験授業</section>
+              </div>
          <section id='container'>
          　　　　　<h3>オンラインでも成績を伸ばすには・・・</h3>
                  <img src='' width='300' height='300' alt='top-image'>

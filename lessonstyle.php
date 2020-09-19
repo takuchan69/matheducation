@@ -10,5 +10,20 @@
            <link rel='stylesheet' href='styles.css'>
        </head>
        <body>
+            <header>
+                   <h1>受講スタイル</h1>
+              </header>
+            <section id='container'>
+                   <h3>効果的な３つのステップ</h3>
+                   <ul>
+                          <li class='list'>動画で予習</li>
+                          <li class='list'>リアルタイムの個別指導で問題を解く</li>
+                          <li class='list'>課題の問題で復習</li>
+                   </ul>
+                   <p>力を伸ばすための３つのサイクルを続けることが大切です</p>
+              </section>
+            <footer>
+                   <p>Copy Right （同)FIND18 &lt; &copy; &gt;</p>
+              </footer>
        </body>
 </html>

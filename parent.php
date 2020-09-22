@@ -12,6 +12,11 @@
               <header>
                      <h1>保護者の方へ</h1>
               </header>
+              <div id='toolbar'>
+                     <section class='toolbar_name'><a href='lessonstyle.php'>講座の受講style</a></section>
+                     <section class='toolbar_name'><a href='syllabus.php'>講座の内容</a></section>
+                     <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
+              </div>
               <section id='container'>
                      <h3>難関大の問題をクリアするためには何が必要か</h3>
                      <ul>
@@ -30,10 +35,11 @@
                             　<p>この観点より学習舎では授業後の「課題」を出してもらう方針にしています。
                             難関と言われる大学の数学はひところよりは少し易しめ（医学部は少し難しめにはなっています
                             が・・・）ではありますが、やはりそれなりの努力を求められることには変わりありません。</p>
-                            
+
                      </ul>
               </section>
               <footer>
+                    <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
               </footer>
        </body>
 </html>

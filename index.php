@@ -39,7 +39,7 @@
                  </div>
          </section>
          <footer>
-         　　　　　<h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
+               <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
          </footer>
        </body>
 </html>

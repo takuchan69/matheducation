@@ -15,10 +15,10 @@
               </header>
             <section id='container'>
                    <h3>効果的な３つのステップ</h3>
-                   <ul>
-                          <li class='list'>動画で予習</li>
-                          <li class='list'>リアルタイムの個別指導で問題を解く</li>
-                          <li class='list'>課題の問題で復習</li>
+                   <ul>   
+                          <li class='list'>動画で予習(５分ほどの動画で未習内容を理解)</li>
+                          <li class='list'>リアルタイムの個別指導で問題を解く(実際にライブの個別指導で問題を解いてみましょう)</li>
+                          <li class='list'>課題の問題で復習(自分でもう一度類題を解いてみましょう)</li>
                    </ul>
                    <p>力を伸ばすための３つのサイクルを続けることが大切です</p>
               </section>

@@ -19,12 +19,8 @@
                      <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
               </div>
             <section id='container'>
-                   <h3>効果的な３つのステップ</h3>
-                   <ul>
-                          <li class='list'>動画で予習</li>
-                          <li class='list'>リアルタイムの個別指導で問題を解く</li>
-                          <li class='list'>課題の問題で復習</li>
-                   </ul>
+                   <h3>学習舎は「オンラインのみの数学専門塾」です</h3>
+                   <p>予習、個別授業、課題のすべてがオンラインで可能です。</p>
                    <p>力を伸ばすための３つのサイクルを続けることが大切です</p>
               </section>
             <footer>

@@ -20,22 +20,23 @@
          </div>
          <section id='container'>
                 <ul>
-                    <li class='list'>mail or phone for trial day</li>
-                    <li class='list'>trial lesson</li>
-                    <li class='list'>pass a plan to consider</li>
+                    <li class='list'>以下の欄にご希望日時をご記入ください</li>
+                    <li class='list'>折返し電話にて日程を再確認させて頂きます</li>
+                    <li class='list'>受講後に改めて継続受講をご検討頂きます</li>
                 </ul>
                 <form method='post' action='trial_post.php' >
-                    <label>Input day you want to try.<strong>must</strong>
-                      <input type='date' placeholder='2020/08/23'>
+                    <label>受講希望日程を以下より選択してください<strong>必須</strong>
+                      <input type='date' placeholder='８月２２日'>
+                      <input type='time' placeholder='17:00~'>
                     </label><br><br>
-                    <label>Input your name.<strong>must</strong>
-                      <input type='text' placeholder='ex)Yamada Taro'>
+                    <label>お名前<strong>必須</strong>
+                      <input type='text' placeholder='ex)山田　太郎'>
                     </label><br><br>
-                    <label>input your grade.<strong>must</strong>
-                      <input type='number' placeholder='ex) grade 2'>
+                    <label>学年<strong>必須</strong>
+                      <input type='number' placeholder='高校２年'>
                     </label><br><br>
-                    <label>phone number or email address(for later contact).<strong>must</strong>
-                      <input type='text' placeholder='****@abc.jp'>
+                    <label>電話番号（ご連絡先)<strong>必須</strong>
+                      <input type='text' placeholder='03-2345-＊＊＊＊'>
                     </label><br><br>
                     <input type='submit' value='send'>
                 </form>

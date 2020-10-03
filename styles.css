@@ -59,3 +59,30 @@ ul > li{list-style-type: none;
            background:#ffe;
            margin:0 auto;
 }
+/* trial page */
+.trial_table{display:block;
+             margin:0px auto;
+             border:1px solid #000;
+             width:500px;
+             height:500px;
+}
+td{width:70px;
+   height:70px;
+   border:1px solid #000;
+   border-collapse: collapse;
+}
+.sunday{color:red;
+        font-size:30px;
+        text-align:center;
+        font-family:serif;
+}
+.saturday{color:blue;
+        font-size:30px;
+        text-align:center;
+        font-family:serif;
+}
+.weekday{color:black;
+        font-size:30px;
+        text-align:center;
+        font-family:serif;
+}

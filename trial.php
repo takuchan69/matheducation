@@ -20,12 +20,69 @@
          </div>
          <section id='container'>
                 <ul>
-                    <li class='list'>以下の欄にご希望日時をご記入ください</li>
+                    <li class='list'>以下の欄にご希望日時と学年をご記入ください(今年度は３年生は募集しておりません）</li>
                     <li class='list'>折返し電話にて日程を再確認させて頂きます</li>
-                    <li class='list'>受講後に改めて継続受講をご検討頂きます</li>
+                    <li class='list'>受講後に改めて継続受講をご希望の場合ご連絡をいただきます。</li>
                 </ul>
                 <form method='post' action='trial_post.php' >
                     <label>受講希望日程を以下より選択してください<strong>必須</strong>
+                           <h3>2020年10月
+                           <table>
+                                  <thead>
+                                         <th>日</th>
+                                         <th>月</th>
+                                         <th>火</th>
+                                         <th>水</th>
+                                         <th>木</th>
+                                         <th>金</th>
+                                         <th>土</th>
+                                  </thead>
+                                  <tr>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                  </tr>
+                                  <tr>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                  </tr>
+                                  <tr>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                  </tr>
+                                  <tr>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                  </tr>
+                                  <tr>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                         <td></td>
+                                  </tr>
+                           </table>
                       <input type='date' placeholder='８月２２日'>
                       <input type='time' placeholder='17:00~'>
                     </label><br><br>

@@ -86,7 +86,20 @@ td{width:70px;
         text-align:center;
         font-family:serif;
 }
-//受講スタイルのページ
-a.howto_zoom{display:block;
+/* 受講スタイルのページ */
+.howto_zoom{display:block;
              font-size:35px;
+}
+a:visited{color:red;
+          font-size:30px;
+}
+.list{font-family:serif;
+      font-size:30px;
+
+}
+/* howto_zoom.php */
+dt{font-size:35px;
+   font-family:sans-serif;
+   font-weight:bold;
+   text-shadow:0px 1px 2px #666;
 }

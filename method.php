@@ -29,6 +29,11 @@
                            <li class='list'>Zoomで個別指導(ライブで40分ほどです)</li>
                            <li class='list'>課題を後日提出(自宅などで解いて答案の写真を送ってもらいます）</li>
                     </ul>
+                    <ul>
+                           <dt>受講にあたりZoomが使用できる環境が必要です</dt>
+                           <dd>タブレットもしくはスマートフォンが必要です</dd>
+                           <a href='howto_zoom.php'　class='howto_zoom'>Zoomの使い方はここをクリックしてください</a>
+                    </ul>
              </section>
              <footer>
                <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>

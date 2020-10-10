@@ -86,3 +86,7 @@ td{width:70px;
         text-align:center;
         font-family:serif;
 }
+//受講スタイルのページ
+a.howto_zoom{display:block;
+             font-size:35px;
+}

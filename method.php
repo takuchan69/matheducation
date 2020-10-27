@@ -11,7 +11,7 @@
        </head>
        <body>
              <header>
-                    <h1>title of method page</h1>
+                    <h1>オンライン受講するスタイル</h1>
              </header>
              <div id='toolbar'>
                     <section class='toolbar_name'><a href='lessonstyle.php'>講座の受講style</a></section>

@@ -35,10 +35,10 @@
                      　 5. 授業が終わったらZoomの画面にある「退出」ボタンを押すと自動的に終了します。<br>
                     </dd>
 
-                    <dt>Zoomの使い方の案内をダウンロードする</dt>
+                    <dt>この使い方の案内をダウンロードする</dt>
                     <dd> <a href='howtoZoom.pdf' download='howtoZoom.pdf'>ここをクリックするとダウンロードが始まります。</a></dd>
                     <dt>Zoomの公式サイトを見る</dt>
-                    <dd><a href='https://zoom.us' target='blank'>link to Zoom.us</a></dd>
+                    <dd><a href='https://zoom.us' target='blank'>Zoomの公式サイトへのリンク</a></dd>
                 </dl>
 
 

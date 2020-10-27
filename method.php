@@ -6,7 +6,7 @@
              <meta name='keywords' content=''>
              <meta name='description' content='method of how we teach math'>
              <meta name='viewport' content='width=device-width'>
-             <title>method</title>
+             <title>オンライン受講の方法</title>
              <link rel='stylesheet' href='styles.css'>
        </head>
        <body>
@@ -19,11 +19,12 @@
                     <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
              </div>
              <section id='container'>
-                    <h3>学習舎の方法</h3>
-                    数学に限らず「できるために必要なこと」は昔よりそんなに変わるわけではありません。
-                    それは「自分で習ったことを使ってみる」ということです。つまり、「聞いてるだけでなく自分で
-                    解いてみること」こそ成績向上のポイントです。
-                    　学習舎ではそんな成績向上の仕組みをオンラインで提供しています。
+                    <h3>オンライン受講の方法</h3>
+                    オンラインで受講するに当たり受講生側にスマホ、タブレット、パソコンのいずれかが必要になります。<br>
+                    受講するためのアプリZoomを入れる(受講するだけであれば特段の情報入力も費用もかかりません)。<br>
+                    ５分ほどで入れることができるのでホームページより「Zoomの使い方の案内」をクリックして入れ方を<br>
+                    ご確認ください。
+                
                     <ul >
                           <li class='list'>動画で予習(10分ほどです)</li>
                           <li class='list'>Zoomで個別指導(ライブで40分ほどです)</li>

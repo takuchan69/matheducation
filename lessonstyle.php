@@ -22,6 +22,7 @@
                    <h3>学習舎は「オンラインのみの数学専門塾」です</h3>
                    <p>予習、個別授業、課題のすべてがオンラインで可能です。</p>
                    <p>力を伸ばすための３つのサイクルを続けることが大切です</p>
+                   <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
               </section>
             <footer>
                    <p>Copy Right （同)FIND18 &lt; &copy; &gt;</p>

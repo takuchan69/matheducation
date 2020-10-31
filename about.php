@@ -29,6 +29,7 @@
                 </article>
                 <article class='box'>
                 </article>
+                   <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
             </section>
             <footer>
                 <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>

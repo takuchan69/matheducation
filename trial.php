@@ -114,6 +114,7 @@ foreach($this_month as $day){
                     </label><br><br>
                     <input type='submit' value='send'>
                 </form>
+                <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
          </section>
          <footer>
                 <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>

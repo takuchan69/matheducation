@@ -42,7 +42,7 @@
                 </dl>
 　　　　　　　　　<h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
 　　　　　　　　　<footer>
-                   <p> </p>
-         </footer>
+                <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
+               </footer>
         </body>
  </html>

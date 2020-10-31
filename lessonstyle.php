@@ -25,7 +25,7 @@
                    <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
               </section>
             <footer>
-                   <p>Copy Right （同)FIND18 &lt; &copy; &gt;</p>
+                   <p>Copy Right 学習舎 &lt; &copy; &gt;</p>
               </footer>
        </body>
 </html>

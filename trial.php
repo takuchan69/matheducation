@@ -16,7 +16,7 @@ $today = new DateTime('today');
        </head>
        <body>
          <header>
-               <h1> How to try lesson</h1>
+               <h1>体験授業のお申し込みの流れ</h1>
          </header>
          <div id='toolbar'>
                 <section class='toolbar_name'><a href='lessonstyle.php'>講座の受講style</a></section>
@@ -24,6 +24,7 @@ $today = new DateTime('today');
                 <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
          </div>
          <section id='container'>
+                
                 <ul>
                     <li class='list'>お電話にて「体験授業を希望」とお伝え下さい(今年度は３年生は募集しておりません）。</li>
                     <li class='list'>お電話にて日程を決めさせてさせて頂きます（下記のカレンダーにてご都合の良い日程を決めておいてください)。</li>

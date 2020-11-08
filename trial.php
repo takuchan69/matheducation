@@ -31,7 +31,7 @@ $today = new DateTime('today');
                 </ul>
                 <form method='post' action='trial_post.php' >
                     <label>受講希望日程を以下より選択してください<strong>必須</strong>
-                           <h3><?=$today->format('Y').'year'.$today->format('m').'月';?></h3>
+                           <h3><?=$today->format('Y').'年'.$today->format('m').'月';?></h3>
 
                 </form>
                 <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>

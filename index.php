@@ -19,7 +19,6 @@
              </div>
          <section id='container'>
          　　　　　<h3>オンラインでも成績を伸ばすには・・・</h3>
-                 <img src='student.pdf' width='300' height='300' alt='top-image'>
               　　<ul>
 
                 　　　<li>1.出題される問題タイプを全て習うこと</li>

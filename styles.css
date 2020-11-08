@@ -60,29 +60,31 @@ ul > li{list-style-type: none;
            margin:0 auto;
 }
 /* trial page */
-.trial_table{display:block;
-             margin:0px auto;
-             border:1px solid #000;
-             width:500px;
-             height:500px;
+.calendar{margin:0px auto;
+          border:2px solid #000;
+          border-radius:5px;
 }
-td{width:70px;
-   height:70px;
+.title{font-weight: bold;
+       font-size:30px;
+}
+td{width:30px;
+   height:40px;
    border:1px solid #000;
    border-collapse: collapse;
 }
+td.vacant{background:#fee;}
 .sunday{color:red;
-        font-size:30px;
+        font-size:25px;
         text-align:center;
         font-family:serif;
 }
 .saturday{color:blue;
-        font-size:30px;
+        font-size:25px;
         text-align:center;
         font-family:serif;
 }
 .weekday{color:black;
-        font-size:30px;
+        font-size:25px;
         text-align:center;
         font-family:serif;
 }

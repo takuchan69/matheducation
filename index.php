@@ -21,7 +21,7 @@
          　　　　　<h3>オンラインでも成績を伸ばすには・・・</h3>
 <<<<<<< HEAD
                  <img src='黒板の数式.jpeg' width='300' height='300' alt='top-image'>
-                 <img src='student.jpeg' width='300' height='300' alt="student's iamge ">
+                 <img src='student.jpeg' width='300' height='300' alt="student's image ">
 =======
 >>>>>>> b95aadf74cf63b3822f698606f5896db077e1edd
               　　<ul>

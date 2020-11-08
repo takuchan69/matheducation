@@ -25,15 +25,15 @@ $today = new DateTime('today');
          </div>
          <section id='container'>
                 <ul>
-                    <li class='list'>以下の欄にご希望日時と学年をご記入ください(今年度は３年生は募集しておりません）</li>
-                    <li class='list'>折返し電話にて日程を再確認させて頂きます</li>
-                    <li class='list'>受講後に改めて継続受講をご希望の場合ご連絡をいただきます。</li>
+                    <li class='list'>お電話にて「体験授業を希望」とお伝え下さい(今年度は３年生は募集しておりません）。</li>
+                    <li class='list'>お電話にて日程を決めさせてさせて頂きます（下記のカレンダーにてご都合の良い日程を決めておいてください)。</li>
+                    <li class='list'>受講後にご検討の上、受講をご希望される場合ご連絡をいただきます。</li>
                 </ul>
-                <form method='post' action='trial_post.php' >
+                <section >
                     <label>受講希望日程を以下より選択してください<strong>必須</strong>
                            <h3><?=$today->format('Y').'年'.$today->format('m').'月';?></h3>
 
-                </form>
+                </section>
                 <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
          </section>
          <footer>

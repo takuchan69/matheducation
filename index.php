@@ -22,14 +22,15 @@
 
                  <img src='黒板の数式.jpeg' width='300' height='300' alt='top-image'>
                  <img src='student.jpeg' width='400' height='300' alt="student's image ">
-                 <h3 style='color:red;'>2021年3月末まで授業料(1200円/回）を無料にて実施しています</h3>
-                 <h3 style='color:blue;'><a href='trial.php'>無料の体験授業受講の方法はこちらをクリックしてください</a></h3>
+                 
               　　<ul>
 
                 　　　<li>1.リアルタイムの個別指導授業を行うこと。</li>
                      <li>2.類題を添削課題で「実際に自分で解いてみること」</li>
                      <li>3.質問を放置しないこと。</li>
                  </ul>
+                <h3 style='color:red;'>2021年3月末まで授業料(1200円/回）を無料にて実施しています</h3>
+                 <h4><a href='trial.php' style='color:blue;'>無料の体験授業受講の方法はこちらをクリックしてください</a></h4>
                  <div id='parent'>
                      <article class='introduce'>
                           <a href='method.php'><p>学習舎のやり方</p></a>

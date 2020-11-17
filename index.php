@@ -22,8 +22,8 @@
 
                  <img src='黒板の数式.jpeg' width='300' height='300' alt='top-image'>
                  <img src='student.jpeg' width='400' height='300' alt="student's image ">
-                 <h3 style='color:red;'>2021年3月末まで授業料無料にて実施しています</h3>
-                 <h3 style='color:blue;'><a href='trial.php'>無料の体験授業受講はこちらをクリックしてください</a></h3>
+                 <h3 style='color:red;'>2021年3月末まで授業料(1200円/回）を無料にて実施しています</h3>
+                 <h3 style='color:blue;'><a href='trial.php'>無料の体験授業受講の方法はこちらをクリックしてください</a></h3>
               　　<ul>
 
                 　　　<li>1.リアルタイムの個別指導授業を行うこと。</li>

@@ -19,9 +19,9 @@
                      <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
               </div>
             <section id='container'>
-                   <h3>学習舎は「オンラインのみの数学専門塾」です</h3>
-                   <p>予習、個別授業、課題のすべてがオンラインで可能です。</p>
-                   <p>力を伸ばすための３つのサイクルを続けることが大切です</p>
+                   <h3>オンラインでの受講スタイルでも学力がつく理由</h3>
+                   <p>リアルタイムの授業で問題を解いてみることを通じてきちんと理解すべき内容が頭に入ります。</p>
+                   <p>習ったことを自分のものにするために課題添削があります。</p>
                    <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
               </section>
             <footer>

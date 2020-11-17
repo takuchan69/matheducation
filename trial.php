@@ -27,8 +27,9 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
          <section id='container'>
 
                 <ul>
+                    <li class='list'>お電話にて日程を決めさせてさせて頂きます（他所との兼務がある関係にてお受けできる時間に制約があるため、<br>
+                                     下記のカレンダーにてご都合の良い日程を決めておいてください)。</li>
                     <li class='list'>お電話にて「体験授業を希望」とお伝え下さい(今年度は３年生は募集しておりません）。</li>
-                    <li class='list'>お電話にて日程を決めさせてさせて頂きます（下記のカレンダーにてご都合の良い日程を決めておいてください)。</li>
                     <li class='list'>受講後にご検討の上、受講をご希望される場合ご連絡をいただきます。</li>
                 </ul>
                 <section >

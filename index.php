@@ -18,16 +18,17 @@
                     <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
              </div>
          <section id='container'>
-         　　　　　<h3>オンラインでも成績を伸ばすには・・・</h3>
+         　　　　　<h3>オンラインで数学の成績をのばす塾</h3>
 
                  <img src='黒板の数式.jpeg' width='300' height='300' alt='top-image'>
                  <img src='student.jpeg' width='400' height='300' alt="student's image ">
-
+                 <h3 style='color:red;'>2021年3月末まで授業料無料にて実施しています</h3>
+                 <h3 style='color:blue;'><a href='trial.php'>無料の体験授業受講はこちらをクリックしてください</a></h3>
               　　<ul>
 
-                　　　<li>1.出題される問題タイプを全て習うこと</li>
-                     <li>2.類題を「実際に自分で解いてみること」</li>
-                     <li>3.復習すること</li>
+                　　　<li>1.リアルタイムの個別指導授業を行うこと。</li>
+                     <li>2.類題を添削課題で「実際に自分で解いてみること」</li>
+                     <li>3.質問を放置しないこと。</li>
                  </ul>
                  <div id='parent'>
                      <article class='introduce'>

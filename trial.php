@@ -1,6 +1,7 @@
 <?php
 
 include_once('');
+date_default_timezone_set('UTC');
 $this_month = new DateTime('today');
 $next_month = new DateTime('next month');
 $this_month_period = new DatePeriod(new DateTime('first day of this month'),new DateInterval('P1D'),new DateTime('first day of next month'));
@@ -50,19 +51,20 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                                          <input type='radio' name='reason_for__lesson'>受験数学の対策
                                          <input type='radio' name='reason_for__lesson'>難関大学や医学部対策
                                          <input type='radio' name='reason_for__lesson'>苦手分野対策
-                                         <input type='radio' name='reason_for__lesson'>その玉
+                                         <input type='radio' name='reason_for__lesson'>その他
                                   </label>
                                   <label>学年：
                                          <select name='grade' >
-                                                <option value='chugaku1'>1</option>
-                                                <option value='chugaku2'>2</option>
-                                                <option value='chugaku3'>3</option>
-                                                <option value='koukou1'>1</option>
-                                                <option value='koukou2'>2</option>
-                                                <option value='koukou3'>3</option>
-                                                <option value='rounin'>rouninnsei</option>
+                                                <option value='chugaku1'>中学１年</option>
+                                                <option value='chugaku2'>中学２年</option>
+                                                <option value='chugaku3'>中学３年</option>
+                                                <option value='koukou1'>高校１年</option>
+                                                <option value='koukou2'>高校２年</option>
+                                                <option value='koukou3'>高校３年</option>
+                                                <option value='rounin'>浪人生</option>
                                          </select>
-
+　　　　　　　　　　　　　　　　　　　　<input type='hidden' value='<?=date(' l jS \of F Y h:i:s A');?>'>
+                                         <input type='submit' value='送信'>
                            </form>
                        <table width='300' height='250' class='calendar'>
                          <thead>

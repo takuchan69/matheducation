@@ -35,6 +35,35 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                 <section >
                     <label>受講希望日程を以下より選択してください<strong>必須</strong>
                            <h3 class='title'><?=$this_month->format('Y').'年'.$this_month->format('m').'月';?></h3>
+                           <form action='show_input.php' method='post'>
+                                  <label>お名前：<span class='must'>必須</span>
+                                  <input type='text'>
+                                  </label>
+                                  <label>ご連絡先電話番号：<span class='must'>必須</span>
+                                  <input type='tel' placeholder='03-3345-＊＊＊＊'>
+                                  </label>
+                                  <label>ご連絡先メールアドレス：<span class='must'>必須</span>
+                                  <input type='email' palceholder='example@gmail.com'>
+                                  </label>
+                                  <label>受講目的：
+                                         <input type='radio' name='reason_for__lesson'>学校の数学の定期試験対策
+                                         <input type='radio' name='reason_for__lesson'>受験数学の対策
+                                         <input type='radio' name='reason_for__lesson'>難関大学や医学部対策
+                                         <input type='radio' name='reason_for__lesson'>苦手分野対策
+                                         <input type='radio' name='reason_for__lesson'>その玉
+                                  </label>
+                                  <label>学年：
+                                         <select name='grade' >
+                                                <option value='chugaku1'>1</option>
+                                                <option value='chugaku2'>2</option>
+                                                <option value='chugaku3'>3</option>
+                                                <option value='koukou1'>1</option>
+                                                <option value='koukou2'>2</option>
+                                                <option value='koukou3'>3</option>
+                                                <option value='rounin'>rouninnsei</option>
+                                         </select>
+
+                           </form>
                        <table width='300' height='250' class='calendar'>
                          <thead>
                               <tr>

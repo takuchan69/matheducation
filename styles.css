@@ -88,6 +88,11 @@ td.vacant{background:#fee;}
         text-align:center;
         font-family:serif;
 }
+.must{color:red;
+      font-weight:bold;
+      font-family:sans-serif;
+      
+  }
 /* 受講スタイルのページ */
 .howto_zoom{display:block;
              font-size:35px;

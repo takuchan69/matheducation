@@ -1,7 +1,9 @@
 <?php
-
-include_once('');
+include_once('config.php');
+include_once('send_method.php');
 date_default_timezone_set('UTC');
+$send = new send_message\Send();
+$err_message = $send->_send_check();
 $this_month = new DateTime('today');
 $next_month = new DateTime('next month');
 $this_month_period = new DatePeriod(new DateTime('first day of this month'),new DateInterval('P1D'),new DateTime('first day of next month'));
@@ -26,7 +28,10 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                 <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
          </div>
          <section id='container'>
-
+                <?php if($err_message !== ''):?>
+                <p style='color:red;'>  <?=$err_message;?></p>
+                <?php $err_message = '';?>
+              <?php endif;?>
                 <ul>
                     <li class='list'><strong>お電話にて日程を決めさせてさせて頂きます（他所との兼務がある関係にてお受けできる時間に制約があるため、<br>
                            下記のカレンダーにてご都合の良い日程を決めておいてください)。</strong></li>
@@ -36,23 +41,23 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                 <section >
                     <label>受講希望日程を以下より選択してください<strong>必須</strong>
                            <h3 class='title'><?=$this_month->format('Y').'年'.$this_month->format('m').'月';?></h3>
-                           <form action='show_input.php' method='post'>
+                           <form action='' method='post'>
                                   <label>お名前：<span class='must'>必須</span>
-                                  <input type='text'>
-                                  </label>
+                                  <input type='text' name='name' placeholder='onamae'>
+                                </label><br>
                                   <label>ご連絡先電話番号：<span class='must'>必須</span>
-                                  <input type='tel' placeholder='03-3345-＊＊＊＊'>
-                                  </label>
+                                  <input type='tel' placeholder='03-3345-＊＊＊＊' name='tel'>
+                                </label><br>
                                   <label>ご連絡先メールアドレス：<span class='must'>必須</span>
-                                  <input type='email' palceholder='example@gmail.com'>
-                                  </label>
+                                  <input type='email' palceholder='example@gmail.com' name='mail'>
+                                </label><br>
                                   <label>受講目的：
-                                         <input type='radio' name='reason_for__lesson'>学校の数学の定期試験対策
-                                         <input type='radio' name='reason_for__lesson'>受験数学の対策
-                                         <input type='radio' name='reason_for__lesson'>難関大学や医学部対策
-                                         <input type='radio' name='reason_for__lesson'>苦手分野対策
-                                         <input type='radio' name='reason_for__lesson'>その他
-                                  </label>
+                                         <input type='radio' value='school_math' name='reason'>学校の数学の定期試験対策<br>
+                                         <input type='radio' value='exam_math' name='reason'>受験数学の対策<br>
+                                         <input type='radio' value='height_level' name='reason'>難関大学や医学部対策<br>
+                                         <input type='radio' value='better_learning' name='reason'>苦手分野対策<br>
+                                         <input type='radio' value='other' name='reason'>その他<br>
+                                  </label><br>
                                   <label>学年：
                                          <select name='grade' >
                                                 <option value='chugaku1'>中学１年</option>
@@ -62,8 +67,8 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                                                 <option value='koukou2'>高校２年</option>
                                                 <option value='koukou3'>高校３年</option>
                                                 <option value='rounin'>浪人生</option>
-                                         </select>
-　　　　　　　　　　　　　　　　　　　　<input type='hidden' value='<?=date(' l jS \of F Y h:i:s A');?>'>
+                                         </select><br>
+　　　　　　　　　　　　　　　　　　　　<input type='hidden' value='<?=date(' l jS \of F Y h:i:s A');?>' name='date'>
                                          <input type='submit' value='送信'>
                            </form>
                        <table width='300' height='250' class='calendar'>

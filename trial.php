@@ -29,7 +29,7 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
          </div>
          <section id='container'>
                 <?php if($err_message !== ''):?>
-                <p style='color:red;'>  <?=$err_message;?></p>
+                <p style='color:red;'><?=$err_message;?></p>
                 <?php $err_message = '';?>
               <?php endif;?>
                 <ul>
@@ -68,7 +68,27 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                                                 <option value='koukou3'>高校３年</option>
                                                 <option value='rounin'>浪人生</option>
                                          </select><br>
+                                  </label>
+                                  <label>contact date:<span class='must'>必須</span>
+                                       <h4 class='must'>please select at 12:00~15:00 weekday</h4>
+                                       <h4>no.1</h4>
+                                       <input type='date' name='requestno1'>
+                                       <select>
+                                              <option value='12:00~'>12:00~
+                                              <option value='12:30~'>12:30~
+                                              <option value='13:00~'>13:00~
+                                              <option value='13:30~'>13:30~
+                                       </select>
+                                       <h4>no.2</h4>
+                                       <input type='date' name='requestno2'>
+                                       <select>
+                                              <option value='12:00~'>12:00~
+                                              <option value='12:30~'>12:30~
+                                              <option value='13:00~'>13:00~
+                                              <option value='13:30~'>13:30~
+                                       </select><br>
 　　　　　　　　　　　　　　　　　　　　<input type='hidden' value='<?=date(' l jS \of F Y h:i:s A');?>' name='date'>
+
                                          <input type='submit' value='送信'>
                            </form>
                        <table width='300' height='250' class='calendar'>

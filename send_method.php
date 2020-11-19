@@ -14,7 +14,7 @@ namespace send_message;
         $this->_reason = $_POST['reason'];
         $this->_grade = $_POST['grade'];
          if($this->_name === '' || $this->_tel === '' || $this->_mail === ''){
-           return $this->err_message = 'name of must should not be empty';
+           return  'name of must should not be empty';
          }else{
            $this->_date = $_POST['date'];
            $_SESSION['contact_data'] = [$this->_name,$this->_tel,$this->_mail,$this->_reason,$this->_grade,$this->_date];
@@ -22,7 +22,6 @@ namespace send_message;
 
          }
       };
-      echo $this->_name;
   }
 }
 

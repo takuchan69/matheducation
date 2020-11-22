@@ -2,6 +2,26 @@ body{margin:0;
      background:#fff;
      text-align:center;
      }
+/* global parts */
+#container{width:auto;
+           height:1000px;
+           display:block;
+           margin:10px auto;
+           border:1px solid #000;
+}
+.goto_index{
+    display:block;
+    margin:10px auto;
+    background:#0dd;
+    width:550px;
+    height:50px;
+    border:1px solid #000;
+    border-radius: 5px;
+}
+.goto_index > a{
+    text-decoration: none;
+
+}
 /* index page */
 h1{color:blue;
    font-size:40px;
@@ -20,13 +40,23 @@ h1 span{color:red;
 }
 .toolbar_name{width:30%;
               height: 100%;
-              background:#ffe;
+              background:#0dd;
               line-height: 80px;
               font-family: serif;
-
+              opacity: 0.8;
 }
-.toolbar_name > a{
+.toolbar_name:hover{
+              opacity:1;
+              cursor:pointer;
+}
 
+.toolbar_name > a{
+        font-size: 30px;
+        font-family: sans-serif;
+        text-decoration: none;
+}
+.toolbar_name > a:visited{
+        color:blue;
 }
 h3{color:gray;
   font-size:25px;
@@ -47,6 +77,7 @@ ul > li{list-style-type: none;
         line-height: 2em;
         padding-bottom: 5px;
 }
+/* parent parts*/
 #parent{width:auto;
         height:150px;
         background:#fff;
@@ -58,8 +89,27 @@ ul > li{list-style-type: none;
            height:100%;
            background:#ffe;
            margin:0 auto;
+           opacity:0.8;
+          background:#0dd;
+          font-size:30px;
+}
+.introduce > a{
+          text-decoration: none;
+}
+.introduce:hover{
+          cursor:pointer;
+          opacity:1;
+}
+.introduce > a:visited{
+          color:blue;
 }
 /* trial page */
+form {width:800px;
+     height:600px;
+     display:block;
+     margin:10px auto;
+     border:1px solid #000;
+}
 .calendar{margin:0px auto;
           border:2px solid #000;
           border-radius:5px;
@@ -91,7 +141,7 @@ td.vacant{background:#fee;}
 .must{color:red;
       font-weight:bold;
       font-family:sans-serif;
-      
+
   }
 /* 受講スタイルのページ */
 .howto_zoom{display:block;
@@ -109,4 +159,27 @@ dt{font-size:35px;
    font-family:sans-serif;
    font-weight:bold;
    text-shadow:0px 1px 2px #666;
+}
+/* show_input page */
+.confirm_table{width:500px;
+               height:400px;
+               border:1px solid #000;
+               display:block;
+               margin:10px auto;
+}
+tr{padding-left:20%;}
+td{margin-left:10%;}
+form{width:500px;
+     height:100px;
+     border:1px solid #000;
+     border-radius:10px;
+     display:block;
+     margin:10px auto;
+}
+input[type=submit]{cursor:pointer;
+                   width:150px;
+                   height:50px;
+                   font-size:20px;
+                   margin-top:5%;
+                   margin-left:10%;
 }

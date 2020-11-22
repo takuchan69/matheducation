@@ -2,6 +2,9 @@
 include_once('config.php');
 include_once('send_method.php');
 date_default_timezone_set('UTC');
+if($_SESSION['contact_data'] === []){
+  exit('please try input again');
+}
 $send = new send_message\Send();
 $err_message = $send->_send_check();
 $this_month = new DateTime('today');
@@ -39,18 +42,18 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                        <li class='list'><strong>受講後にご検討の上、受講をご希望される場合のみ連絡下さい。</strong></li>
                 </ul>
                 <section >
-                    <label>受講希望日程を以下より選択してください<strong>必須</strong>
+                    <label>受講希望日程を以下より選択してください<strong class='must'>必須</strong>
                            <h3 class='title'><?=$this_month->format('Y').'年'.$this_month->format('m').'月';?></h3>
                            <form action='' method='post'>
                                   <label>お名前：<span class='must'>必須</span>
                                   <input type='text' name='name' placeholder='onamae'>
-                                </label><br>
+                                  </label><br>
                                   <label>ご連絡先電話番号：<span class='must'>必須</span>
                                   <input type='tel' placeholder='03-3345-＊＊＊＊' name='tel'>
-                                </label><br>
+                                  </label><br>
                                   <label>ご連絡先メールアドレス：<span class='must'>必須</span>
                                   <input type='email' palceholder='example@gmail.com' name='mail'>
-                                </label><br>
+                                  </label><br>
                                   <label>受講目的：
                                          <input type='radio' value='school_math' name='reason'>学校の数学の定期試験対策<br>
                                          <input type='radio' value='exam_math' name='reason'>受験数学の対策<br>
@@ -142,7 +145,7 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                          </table>
 
                 </section>
-                <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
+                <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
          </section>
          <footer>
                 <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>

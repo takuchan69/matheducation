@@ -28,7 +28,7 @@
                                といえます。当塾はそんな考えのもとに始まりました。</p>
                      </article>
                             <h4>当塾はこんな人に向いています</h4>
-                     <ul>   
+                     <ul>
                             <li class='list'>1.ある程度カリキュラムなどを設定してほしい人(塾では目標から逆算していまやるべきことを計画しています)</li>
                             <li class='list'>２.分かることはもちろん、「できるようになりたい」人。</li>
                             <li class='list'>３．課題添削などで「自分の弱点を知りたい」人。</li>
@@ -37,7 +37,7 @@
                             <li class='list'>6.受験の数学でなく、日々の定期試験対策をして欲しい人</li>
                             <li class='list'>7.苦手なところだけ授業を受けたい人</li>
                      </ul>
-                     <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
+                     <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
               </section>
               <footer>
                     <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>

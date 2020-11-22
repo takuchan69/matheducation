@@ -30,7 +30,7 @@
                　　　<dt>定期試験対策</dt>
                     <dd>試験までに一通りタイプごとに問題を解いておくことで確実に成績はあがるものと思っています。</dd>
                 </dl>
-                <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
+                <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
           </section>
           <footer>
              <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>

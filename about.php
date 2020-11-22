@@ -40,10 +40,10 @@
                                    この間数学ができるようにすることを目指して指導を続け、オンラインでもこれが実現<br>
                                    可能であることからオンラインによる数学塾を開催。<br>
                                    現在の個別指導や高校の校内予備校にても出講中。
-                              </dd> 
+                              </dd>
                        </dl>
                 </article>
-                   <h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
+                   <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
             </section>
             <footer>
                 <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>

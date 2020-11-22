@@ -40,7 +40,7 @@
                     <dt>Zoomの公式サイトを見る</dt>
                     <dd><a href='https://zoom.us' target='blank'>Zoomの公式サイトへのリンク</a></dd>
                 </dl>
-　　　　　　　　　<h3 class='goto_index.php'><a href='index.php'>トップページに戻る</a></h3>
+　　　　　　　　　<h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
 　　　　　　　　　<footer>
                 <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
                </footer>

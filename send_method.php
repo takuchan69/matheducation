@@ -19,7 +19,7 @@ namespace send_message;
            return  '「必須」項目に未記入の項目があります';
          }else{
            $this->_date = $_POST['date'];
-           $_SESSION['contact_data'] = [$this->_name,$this->_tel,$this->_mail,$this->_reason,$this->_grade,$this->_date,$this->_contact1,$this->_contact2];
+           $_SESSION['contact_data'] = ["お名前"=>$this->_name,"お電話番号"=>$this->_tel,"メールアドレス"=>$this->_mail,"受講目的"=>$this->_reason,"学年"=>$this->_grade,"送信日時"=>$this->_date,"第1候補日程"=>$this->_contact1,"第2候補日程"=>$this->_contact2];
            header('Location:show_input.php');
 
          }

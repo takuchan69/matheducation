@@ -42,10 +42,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 <td>学年</td><td><?=$_contact_data["学年"];?></td>
             </tr>
             <tr>
-                <td>第1候補日程</td><td><?=$_contact_data["requestno1"];?></td>
+                <td>第1候補日程</td><td><?=$_contact_data["第1候補日程"];?></td>
             </tr>
             <tr>
-                <td>第2候補日程e</td><td><?=$_contact_data["requestno2"];?></td>
+                <td>第2候補日程e</td><td><?=$_contact_data["第2候補日程"];?></td>
             </tr>
      </table>
              <form action='' method='post'>

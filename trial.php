@@ -7,10 +7,7 @@ if($_SESSION['contact_data'] === []){
 }
 $send = new send_message\Send();
 $err_message = $send->_send_check();
-$this_month = new DateTime('today');
-$next_month = new DateTime('next month');
-$this_month_period = new DatePeriod(new DateTime('first day of this month'),new DateInterval('P1D'),new DateTime('first day of next month'));
-$next_month_period = new DatePeriod(new DateTime('first day of next month'),new DateInterval('P1D'),new DateTime('first day of next month +1 month'));
+
 ?>
 <!DOCTYPE html>
 <html lang='ja'>

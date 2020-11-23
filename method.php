@@ -19,14 +19,20 @@
                     <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
              </div>
              <section id='container'>
-                    <h3>Introduce our method</h3>
+                    <h3>指導の特徴</h3>
                     <dl class='method_introduce'>
-                         <dt>make equation</dt>
-                         <dd></dd>
-                         <dt>image figure</dt>
-                         <dd></dd>
-                         <dt>calculate</dt>
-                         <dd></dd>
+                         <dt>立式</dt>
+                         <dd>数学においては問題文の条件を式に直す作業が決定的に大切です。「最初の一歩」は<br>
+                           この「立式」となることが多いのでこのことを指導の重要部分としています。</dd>
+                         <dt>図形のイメージ</dt>
+                         <dd>問題文に対して図形的なイメージが湧くかどうかが方針を見つける際のポイントとな<br>
+                           こともあります。こんなことも指導では気をつけているところです。</dd>
+                         <dt>計算力</dt>
+                         <dd>数学の場合「考える」ことは「計算方法を考える」ことと同じです。与えられた式か<br>
+                           ら目標の式にいかにたどり着けるかを考えることにほかなりません。</dd>
+                         <dt>様々なコツ</dt>
+                           <dd>自分で取り組んでいるとなかなか気が付かないちょっとしたコツを伝えること<br>
+                           を心がけています。</dd>
                     </dl>
                     <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
              </section>

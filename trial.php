@@ -36,10 +36,12 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                 <?php $err_message = '';?>
               <?php endif;?>
                 <ul>
-                    <li class='list'><strong>お電話にて日程を決めさせてさせて頂きます（他所との兼務がある関係にてお受けできる時間に制約があるため、<br>
-                           下記のカレンダーにてご都合の良い日程を決めておいてください)。</strong></li>
-                       <li class='list'><strong>お電話にて「体験授業を希望」とお伝え下さい(今年度は３年生は募集しておりません）。</strong></li>
-                       <li class='list'><strong>受講後にご検討の上、受講をご希望される場合のみ連絡下さい。</strong></li>
+                    <li class='list'>直接お電話にて体験授業の日程を決めて頂く場合は<strong>月〜金の9:00〜13:00にてお電話ください。
+                      今年度は高校３年生はお引き受けしておりませんのでご注意ください。</strong></li>
+                       <li class='list'>当方よりお電話差し上げる場合は、以下のフォーム欄にご都合の良いご連絡先日時をお送りください。
+                  　　　後日当方よりお電話差し上げます。</strong></li>
+         
+                       <li class='list'><strong>体験授業を受講後にご検討の上、受講をご希望される場合のみ連絡下さい。</strong></li>
                 </ul>
                 <section >
                     <label>受講希望日程を以下より選択してください<strong class='must'>必須</strong>
@@ -56,10 +58,11 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                                   </label><br>
                                   <label>受講目的：
                                          <input type='radio' value='school_math' name='reason'>学校の数学の定期試験対策<br>
-                                         <input type='radio' value='exam_math' name='reason'>受験数学の対策<br>
+                                    　　　<input type='radio' value='school_follow' name='reason'>学校の補修<br>
+                                         <input type='radio' value='exam_math' name='reason'>大学受験の数学対策<br>
                                          <input type='radio' value='height_level' name='reason'>難関大学や医学部対策<br>
                                          <input type='radio' value='better_learning' name='reason'>苦手分野対策<br>
-                                         <input type='radio' value='other' name='reason'>その他<br>
+                                         <input type='radio' value='other' name='reason'>その他資格対策など<br>
                                   </label><br>
                                   <label>学年：
                                          <select name='grade' >
@@ -70,79 +73,47 @@ $next_month_period = new DatePeriod(new DateTime('first day of next month'),new 
                                                 <option value='koukou2'>高校２年</option>
                                                 <option value='koukou3'>高校３年</option>
                                                 <option value='rounin'>浪人生</option>
+                                                <option value='shakaijin'>社会人</option>
                                          </select><br>
                                   </label>
                                   <label>contact date:<span class='must'>必須</span>
                                        <h4 class='must'>please select at 12:00~15:00 weekday</h4>
-                                       <h4>no.1</h4>
+                                       <h4>第1候補日程</h4>
                                        <input type='date' name='requestno1'>
                                        <select>
-                                              <option value='12:00~'>12:00~
-                                              <option value='12:30~'>12:30~
-                                              <option value='13:00~'>13:00~
-                                              <option value='13:30~'>13:30~
+                                         　　　<option value='9:00~'>9:00~</option>
+                                              <option value='9:30~'>9:30~</option>
+                                              <option value='10:00~'>10:00~</option>
+                                              <option value='10:30~'>10:30~</option>
+                                              <option value='11:00~'>11:00~</option>
+                                              <option value='11:30~'>11:30~</option>
+                                              <option value='12:00~'>12:00~</option>
+                                             <option value='12:30~'>12:30~</option>
+                                             <option value='13:00~'>13:00~</option>
+                                             <option value='13:30~'>13:30~</option>
                                        </select>
-                                       <h4>no.2</h4>
+                                       <h4>第2候補日程</h4>
                                        <input type='date' name='requestno2'>
                                        <select>
-                                              <option value='12:00~'>12:00~
-                                              <option value='12:30~'>12:30~
-                                              <option value='13:00~'>13:00~
-                                              <option value='13:30~'>13:30~
+                                              <option value='9:00~'>9:00~</option>
+                                              <option value='9:30~'>9:30~</option>
+                                              <option value='10:00~'>10:00~</option>
+                                              <option value='10:30~'>10:30~</option>
+                                              <option value='11:00~'>11:00~</option>
+                                              <option value='11:30~'>11:30~</option>
+                                              <option value='12:00~'>12:00~</option>
+                                             <option value='12:30~'>12:30~</option>
+                                             <option value='13:00~'>13:00~</option>
+                                             <option value='13:30~'>13:30~</option>
+                                              
                                        </select><br>
 　　　　　　　　　　　　　　　　　　　　<input type='hidden' value='<?=date(' l jS \of F Y h:i:s A');?>' name='date'>
 
                                          <input type='submit' value='送信'>
                            </form>
-                       <table width='300' height='250' class='calendar'>
-                         <thead>
-                              <tr>
-                                 <td class='sunday'>Sun</td> <td class='weekday'>Mon</td> <td class='weekday'>Tue</td>
-                                 <td class='weekday'>Wed</td> <td class='weekday'>Thu</td> <td class='weekday'>Fri</td> <td class='saturday'>Sat</td>
-                              </tr>
-                         </thead>
-                         <tr>
-                           <?php foreach($this_month_period as $this_month_day):?>
-                                 <?php if($this_month_day->format('w') === '0'):?>
-                                 <tr><td class='sunday'><?=$this_month_day->format('d');?></td>
-                                 <?php elseif($this_month_day->format('w') ==='6'):?>
-                                 <td class='saturday'><?=$this_month_day->format('d');?></td></tr>
-                                 <?php else:?>
-                                 <td class='weekday'><?=$this_month_day->format('d');?><br>
-                                   <ul class='vacant'>
-                                       <li>15:00~16:00</li>
-                                       <li>16:10~17:10</li>
-                                   </ul>
-                                 </td>
-                                <?php endif;?>
-                          <?php endforeach;?>
-                      </table>
-                      <!-- calendar of next month -->
-                          <br>
-                          <h3 class='title'><?=$next_month->format('Y').'年'.$next_month->format('m').'月';?></h3>
-                          <table width='300' height='250' class='calendar'>
-                            <thead>
-                                 <tr>
-                                    <td class='sunday'>Sun</td> <td class='weekday'>Mon</td>  <td class='weekday'>Tue</td>
-                                    <td class='weekday'>Wed</td> <td class='weekday'>Thu</td> <td class='weekday'>Fri</td> <td class='saturday'>Sat</td>
-                                 </tr>
-                            </thead>
-                            <tr>
-                              <?php foreach($next_month_period as $next_month_day):?>
-                                    <?php if($next_month_day->format('w') === '0'):?>
-                                    <tr><td class='sunday'><?=$next_month_day->format('d');?></td>
-                                    <?php elseif($next_month_day->format('w') ==='6'):?>
-                                    <td class='saturday'><?=$next_month_day->format('d');?></td></tr>
-                                    <?php else:?>
-                                    <td class='weekday'><?=$next_month_day->format('d');?><br>
-                                      <ul class='vacant'>
-                                          <li>15:00~16:00</li>
-                                          <li>16:10~17:10</li>
-                                      </ul>
-                                    </td>
-                                    <?php endif;?>
-                             <?php endforeach;?>
-                         </table>
+                       
+                      
+                         
 
                 </section>
                 <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>

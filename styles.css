@@ -117,6 +117,9 @@ form.input_form{width:800px;
 .title{font-weight: bold;
        font-size:30px;
 }
+select{width:150px;
+       height:50px;
+}
 td{width:30px;
    height:40px;
    border:1px solid #000;
@@ -162,7 +165,7 @@ dt{font-size:35px;
 }
 /* show_input page */
 .confirm_table{width:500px;
-               height:400px;
+               height:800px;
                border:1px solid #000;
                display:block;
                margin:10px auto;

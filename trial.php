@@ -4,6 +4,8 @@ include_once('send_method.php');
 date_default_timezone_set('UTC');
 if($_SESSION['contact_data'] === []){
   exit('please try input again');
+}else{
+  $_contact_data = $_SESSION['contact_data'];
 }
 $send = new send_message\Send();
 $err_message = $send->_send_check();
@@ -63,6 +65,7 @@ $this_month = new DateTime('today');
                                   </label><br>
                                   <label>学年：
                                          <select name='grade' >
+                                                <option value='title'>select</option>
                                                 <option value='chugaku1'>中学１年</option>
                                                 <option value='chugaku2'>中学２年</option>
                                                 <option value='chugaku3'>中学３年</option>
@@ -74,9 +77,9 @@ $this_month = new DateTime('today');
                                          </select><br>
                                   </label>
                                   <label>contact date:<span class='must'>必須</span>
-                                       <h4 class='must'>please select at 12:00~15:00 weekday</h4>
+                                       <h4 class='must'>please select at 12:00~15:00 weekday upto one week</h4>
                                        <h4>第1候補日程</h4>
-                                       <input type='date' name='requestno1'>
+                                       <input type='date' name='requestno1' required>
                                        <select>
                                          　　　<option value='9:00~'>9:00~</option>
                                               <option value='9:30~'>9:30~</option>
@@ -90,7 +93,7 @@ $this_month = new DateTime('today');
                                              <option value='13:30~'>13:30~</option>
                                        </select>
                                        <h4>第2候補日程</h4>
-                                       <input type='date' name='requestno2'>
+                                       <input type='date' name='requestno2' required>
                                        <select>
                                               <option value='9:00~'>9:00~</option>
                                               <option value='9:30~'>9:30~</option>

@@ -64,3 +64,14 @@ renew syllabus to introducing 'how to do' content.
  make blog page.
  make content of sample lesson.
  renew syllabus to introducing 'how to do' content.
+
+ 23/nov/2020
+ show_input.php:made request date show.
+
+
+ for next:
+ trial.php: make limit date at input[type='date'] using property 'max ,min'.
+            make possible to show page when after exit.
+
+            make blog page.
+            make content of sample lesson.        

@@ -25,6 +25,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
      </head>
      <body>
         <h2>are you sure to confirm inputted data ?</h2>
+        <?php var_dump($_contact_data["第1候補日程"]);?>
      <table width='400' height='400' class='confirm_table' >
             <tr>
                 <td>お名前</td><td><?=$_contact_data["お名前"];?></td>
@@ -45,7 +46,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 <td>第1候補日程</td><td><?=$_contact_data["第1候補日程"];?></td>
             </tr>
             <tr>
-                <td>第2候補日程e</td><td><?=$_contact_data["第2候補日程"];?></td>
+                <td>第2候補日程</td><td><?=$_contact_data["第2候補日程"];?></td>
             </tr>
      </table>
              <form action='' method='post'>

@@ -7,7 +7,7 @@ if($_SESSION['contact_data'] === []){
 }
 $send = new send_message\Send();
 $err_message = $send->_send_check();
-
+$this_month = new DateTime('today');
 ?>
 <!DOCTYPE html>
 <html lang='ja'>
@@ -28,22 +28,22 @@ $err_message = $send->_send_check();
                 <section class='toolbar_name'><a href='trial.php'>体験授業</a></section>
          </div>
          <section id='container'>
-                <?php if($err_message !== ''):?>
-                <p style='color:red;'><?=$err_message;?></p>
-                <?php $err_message = '';?>
-              <?php endif;?>
+
                 <ul>
                     <li class='list'>直接お電話にて体験授業の日程を決めて頂く場合は<strong>月〜金の9:00〜13:00にてお電話ください。
                       今年度は高校３年生はお引き受けしておりませんのでご注意ください。</strong></li>
                        <li class='list'>当方よりお電話差し上げる場合は、以下のフォーム欄にご都合の良いご連絡先日時をお送りください。
                   　　　後日当方よりお電話差し上げます。</strong></li>
-         
+
                        <li class='list'><strong>体験授業を受講後にご検討の上、受講をご希望される場合のみ連絡下さい。</strong></li>
                 </ul>
                 <section >
-                    <label>受講希望日程を以下より選択してください<strong class='must'>必須</strong>
-                           <h3 class='title'><?=$this_month->format('Y').'年'.$this_month->format('m').'月';?></h3>
-                           <form action='' method='post'>
+                    <h4>受講希望日程を以下より選択してください<strong class='must'>必須</strong></h4>
+                           <?php if($err_message !== ''):?>
+                           <p style='color:red;font-size:30px;background:#888;'><?=$err_message;?></p>
+                           <?php $err_message = '';?>
+                          <?php endif;?>
+                          <form action='' method='post' class='input_form'>
                                   <label>お名前：<span class='must'>必須</span>
                                   <input type='text' name='name' placeholder='onamae'>
                                   </label><br>
@@ -102,19 +102,15 @@ $err_message = $send->_send_check();
                                              <option value='12:30~'>12:30~</option>
                                              <option value='13:00~'>13:00~</option>
                                              <option value='13:30~'>13:30~</option>
-                                              
+
                                        </select><br>
 　　　　　　　　　　　　　　　　　　　　<input type='hidden' value='<?=date(' l jS \of F Y h:i:s A');?>' name='date'>
 
                                          <input type='submit' value='送信'>
                            </form>
-                       
-                      
-                         
-
+                         </section>
                 </section>
                 <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
-         </section>
          <footer>
                 <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
          </footer>

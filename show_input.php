@@ -27,21 +27,26 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         <h2>are you sure to confirm inputted data ?</h2>
      <table width='400' height='400' class='confirm_table' >
             <tr>
-                <td>onamae</td><td><?=$_contact_data[0];?></td>
+                <td>お名前</td><td><?=$_contact_data["お名前"];?></td>
             </tr>
             <tr>
-                <td>tel</td><td><?=$_contact_data[1];?></td>
+                <td>お電話番号</td><td><?=$_contact_data["お電話番号"];?></td>
             </tr>
             <tr>
-                <td>mail</td><td><?=$_contact_data[2];?></td>
+                <td>メールアドレス</td><td><?=$_contact_data["メールアドレス"];?></td>
             </tr>
             <tr>
-                <td>reason</td><td><?=$_contact_data[3];?></td>
+                <td>受講目的</td><td><?=$_contact_data["受講目的"];?></td>
             </tr>
             <tr>
-                <td>grade</td><td><?=$_contact_data[4];?></td>
+                <td>学年</td><td><?=$_contact_data["学年"];?></td>
             </tr>
-
+            <tr>
+                <td>第1候補日程</td><td><?=$_contact_data["requestno1"];?></td>
+            </tr>
+            <tr>
+                <td>第2候補日程e</td><td><?=$_contact_data["requestno2"];?></td>
+            </tr>
      </table>
              <form action='' method='post'>
                     <input type='submit' value='MODORU' name='confirm'>

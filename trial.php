@@ -96,7 +96,7 @@ var_dump($week_later->format('Y-m-d'));
                                              <option value='13:30~'>13:30~</option>
                                        </select>
                                        <h4>第2候補日程(本日より1週間以内でお願いします)</h4>
-                                       <input type='date' name='requestno2' min='' max='' required>
+                                       <input type='date' name='requestno2' min='<?=$today->format('Y-m-d');?>' max='<?=$week_later->format('Y-m-d');?>' required>
                                        <select>
                                               <option value='9:00~'>9:00~</option>
                                               <option value='9:30~'>9:30~</option>

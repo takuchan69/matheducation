@@ -9,7 +9,10 @@ if($_SESSION['contact_data'] === []){
 }
 $send = new send_message\Send();
 $err_message = $send->_send_check();
-$this_month = new DateTime('today');
+$today = new DateTime('today');
+$week_later = new DateTime('today + 7 days');
+var_dump($today->format('Y-m-d'));
+var_dump($week_later->format('Y-m-d'));
 ?>
 <!DOCTYPE html>
 <html lang='ja'>
@@ -79,7 +82,7 @@ $this_month = new DateTime('today');
                                   <label>contact date:<span class='must'>必須</span>
                                        <h4 class='must'>please select at 12:00~15:00 weekday upto one week</h4>
                                        <h4>第1候補日程</h4>
-                                       <input type='date' name='requestno1' required>
+                                       <input type='date' name='requestno1' min='<?=$today->format('Y-m-d');?>' max='<?=$week_later->format('Y-m-d');?>' required>
                                        <select>
                                          　　　<option value='9:00~'>9:00~</option>
                                               <option value='9:30~'>9:30~</option>
@@ -93,7 +96,7 @@ $this_month = new DateTime('today');
                                              <option value='13:30~'>13:30~</option>
                                        </select>
                                        <h4>第2候補日程</h4>
-                                       <input type='date' name='requestno2' required>
+                                       <input type='date' name='requestno2' min='' max='' required>
                                        <select>
                                               <option value='9:00~'>9:00~</option>
                                               <option value='9:30~'>9:30~</option>

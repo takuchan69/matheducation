@@ -1,6 +1,7 @@
 <?php
 include_once('config.php');
-$_SESSION['contact_data'] = [];
+include_once('send_method.php');
+
  ?>
  <!DOCTYPE html>
  <html lang='ja'>
@@ -14,12 +15,10 @@ $_SESSION['contact_data'] = [];
         <body>
                <h3>You have successfully done !</h3>
 
-               <?php if($_SESSION['contact_data'] === []):?>
-               <?php exit('I will send q message to you later');?>
-               <?php elseif($_SESSION['contact_data'] !== []):?>
-               <?php $_SESSION['contact_data'] === [];?>
-               <?php else:?>
-               <p><?='please input contact data again '?></p>
+               <?php if(isset($_SESSION['contact_data'])):?>
+               <?php session_destroy();?>
                <?php endif;?>
+               <?php exit('I will send a message to you later');?>
+
         </body>
  </html>

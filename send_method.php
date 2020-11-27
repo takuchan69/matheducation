@@ -11,11 +11,15 @@ namespace send_message;
         $this->_name = $_POST['name'];
         $this->_tel = $_POST['tel'];
         $this->_mail = $_POST['mail'];
-        $this->_reason = $_POST['reason'];
+        if(isset($_POST['reason'])){
+          $this->_reason = $_POST['reason'];
+        }else{
+          $this->_reason = 'no content';
+        }
         $this->_grade = $_POST['grade'];
         $this->_contact1 = $_POST['requestno1'];
          $this->_contact2 = $_POST['requestno2'];
-         if($this->_name === '' || $this->_tel === '' || $this->_mail === ''){
+         if($this->_name === '' || $this->_tel === '' || $this->_mail === ''|| $this->_grade ==='title'){
            return  '「必須」項目に未記入の項目があります';
          }else{
            $this->_date = $_POST['date'];
@@ -24,6 +28,10 @@ namespace send_message;
 
          }
       };
+  }
+
+  function _request_over(){
+
   }
 }
 

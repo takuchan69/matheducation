@@ -2,8 +2,8 @@
 include_once('config.php');
 include_once('send_method.php');
 date_default_timezone_set('UTC');
-if($_SESSION['contact_data'] === []){
-  exit('please try input again');
+if(!isset($_SESSION['contact_data'])){
+  $message = '受講希望日程を以下より選択してください';
 }else{
   $_contact_data = $_SESSION['contact_data'];
 }
@@ -43,7 +43,7 @@ var_dump($week_later->format('Y-m-d'));
                        <li class='list'><strong>体験授業を受講後にご検討の上、受講をご希望される場合のみ連絡下さい。</strong></li>
                 </ul>
                 <section >
-                    <h4>受講希望日程を以下より選択してください<strong class='must'>必須</strong></h4>
+                    <h2><?=$message;?></h2>
                            <?php if($err_message !== ''):?>
                            <p style='color:red;font-size:30px;background:#888;'><?=$err_message;?></p>
                            <?php $err_message = '';?>

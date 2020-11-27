@@ -81,7 +81,7 @@ var_dump($week_later->format('Y-m-d'));
                                   </label>
                                   <label>contact date:<span class='must'>必須</span>
                                        <h4 class='must'>please select at 12:00~15:00 weekday upto one week</h4>
-                                       <h4>第1候補日程(本日より１週間以内でお願いします)</h4>
+                                       <h4>第1候補日程  (本日より１週間以内でお願いします)</h4>
                                        <label>日付：
                                        <input type='date' name='requestno1' min='<?=$today->format('Y-m-d');?>' max='<?=$week_later->format('Y-m-d');?>' required>
                                        </label>
@@ -99,7 +99,7 @@ var_dump($week_later->format('Y-m-d'));
                                              <option value='13:30~'>13:30~</option>
                                        </select>
                                        </label>
-                                       <h4>第2候補日程(本日より1週間以内でお願いします)</h4>
+                                       <h4>第2候補日程  (本日より1週間以内でお願いします)</h4>
                                        <label>日付：
                                        <input type='date' name='requestno2' min='<?=$today->format('Y-m-d');?>' max='<?=$week_later->format('Y-m-d');?>' required>
                                        </label>

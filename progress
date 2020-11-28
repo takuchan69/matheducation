@@ -1,3 +1,7 @@
+
+
+
+
 #progress of work
 21/sept/2020
 Have made all files and next should be making content.Cannot use Japanese text using beta version,need to write directly at repository.
@@ -82,4 +86,5 @@ renew syllabus to introducing 'how to do' content.
 
 for next: make content of sample lesson.
          parent.php:make styles
-         
+          trial.php : insert data from $_SESSION['contact_data'] into html when 'MODORU' button has
+         been pressed at show_input.php .         

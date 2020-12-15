@@ -34,7 +34,7 @@ var_dump($week_later->format('Y-m-d'));
          </div>
          <section id='container'>
 
-                <ul>
+<!--                <ul>
                     <li class='list'>直接お電話にて体験授業の日程を決めて頂く場合は<strong>月〜金の9:00〜13:00にてお電話ください。
                       今年度は高校３年生はお引き受けしておりませんのでご注意ください。</strong></li>
                        <li class='list'>当方よりお電話差し上げる場合は、以下のフォーム欄にご都合の良いご連絡先日時をお送りください。
@@ -42,6 +42,7 @@ var_dump($week_later->format('Y-m-d'));
 
                        <li class='list'><strong>体験授業を受講後にご検討の上、受講をご希望される場合のみ連絡下さい。</strong></li>
                 </ul>
+-->
                 <section >
                     <h2><?=$message;?></h2>
                            <?php if($err_message !== ''):?>

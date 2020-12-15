@@ -6,7 +6,7 @@
             <meta name='viewport' content='width=device-width'>
             <meta name='keywords' content='数学、医学部、大学受験、難関大学、プログラミング教育'>
             <title>保護者の方へ</title>
-            <link rel='stylesheet' href='parent.php'>
+            <link rel='stylesheet' href='styles.css'>
        </head>
        <body>
               <header>

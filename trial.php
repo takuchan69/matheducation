@@ -11,8 +11,8 @@ $send = new send_message\Send();
 $err_message = $send->_send_check();
 $today = new DateTime('today');
 $week_later = new DateTime('today + 7 days');
-var_dump($today->format('Y-m-d'));
-var_dump($week_later->format('Y-m-d'));
+// var_dump($today->format('Y-m-d'));
+// var_dump($week_later->format('Y-m-d'));
 ?>
 <!DOCTYPE html>
 <html lang='ja'>

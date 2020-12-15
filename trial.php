@@ -44,7 +44,13 @@ var_dump($week_later->format('Y-m-d'));
                 </ul>
 -->
                 <section >
-                    <h2><?=$message;?></h2>
+                  <h2>体験授業お申し込みの流れ</h2>
+                  <ul>
+                    <li>平日9:00~13:30の間にてお申し込みのお電話をください(これ以外の時間帯は授業に出払ってしまっています)。</li>
+                    <li>お電話にて体験授業の日程を決めて、Zoomの使い方を簡単にご紹介します。</li>
+                    <li>体験授業を受けたのち、継続受講される場合のみご連絡いただくことになります</li>
+                  </ul>
+ <!--               <h2><?=$message;?></h2>
                            <?php if($err_message !== ''):?>
                            <p style='color:red;font-size:30px;background:#888;'><?=$err_message;?></p>
                            <?php $err_message = '';?>
@@ -122,7 +128,7 @@ var_dump($week_later->format('Y-m-d'));
 　　　　　　　　　　　　　　　　　　　　<input type='hidden' value='<?=date(' l jS \of F Y h:i:s A');?>' name='date'>
 
                                          <input type='submit' value='送信'>
-                           </form>
+                           </form>          -->
                          </section>
                 </section>
                 <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>

@@ -35,9 +35,10 @@
                             <li class='list'>4.予備校のノウハウを体験したい人。</li>
                             <li class='list'>5.難関大学や医学部のための「数学の問題を解くコツ」を知りたい人</li><br><br>
                             <li class='list'>6.受験の数学でなく、日々の定期試験対策をして欲しい人</li>
-                            <li class='list'>7.苦手なところだけ回数限定で授業を受けたい人</li>
+                      <!--      <li class='list'>7.苦手なところだけ回数限定で授業を受けたい人</li>
                             <li class='list'>8.資格試験などの目標があるので目標までの講座を作成して欲しいひと</li>
                             <li class='list'>9.目標の試験対策として解説付きの模擬試験を作成して欲しい人</li>
+                      -->
                      </ul>
                      <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
               </section>

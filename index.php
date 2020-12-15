@@ -29,7 +29,7 @@
                      <li>2.類題を添削課題で「実際に自分で解いてみること」</li>
                      <li>3.質問を放置しないこと。</li>
                  </ul>
-                <h3 style='color:red;'>2021年3月末まで授業料(1200円/回）を無料にて実施しています</h3>
+                <h3 style='color:red;'>2021年3月末まで授業料(1200円/回）を500円/回にて実施しています</h3>
                  <h4><a href='trial.php' style='color:blue;'>無料の体験授業受講の方法はこちらをクリックしてください</a></h4>
                  <div id='parent'>
                      <article class='introduce'>

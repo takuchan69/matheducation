@@ -88,3 +88,14 @@ for next: make content of sample lesson.
          parent.php:make styles
           trial.php : insert data from $_SESSION['contact_data'] into html when 'MODORU' button has
          been pressed at show_input.php .         
+17/dec/2020
+changes made in trial.php lessonstyle.php for making contents more simple for user experiance.
+only make two ways of contact.phone and email,and get information of student when contact is made.
+
+for next:make content of sample lesson and make link of it in lessonstyle.
+         make sure of "what should I do at that moment" list.
+         1.customer contact
+         2.what should I ask what should I tell.
+         3.What should I do when customer wants join this service.
+         
+         check all content are clear for customer.

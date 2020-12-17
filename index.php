@@ -45,6 +45,9 @@
          </section>
          <footer>
                <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
+               <p class='footer_infomation'>学習舎:千葉県船橋市東中山1丁目14番5号<br>
+                                            Tel:047-711-3080<br>
+                                            Email:info@find18teach.pro<br></p>
          </footer>
        </body>
 </html>

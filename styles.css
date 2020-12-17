@@ -22,6 +22,12 @@ body{margin:0;
     text-decoration: none;
 
 }
+
+.footer_infomation{font-family:serif;
+                   font-size:20px;
+                   color:black;
+                   }
+
 /* index page */
 h1{color:blue;
    font-size:40px;
@@ -185,4 +191,7 @@ input[type=submit]{cursor:pointer;
                    font-size:20px;
                    margin-top:5%;
                    margin-left:10%;
+
 }
+/* about page */
+

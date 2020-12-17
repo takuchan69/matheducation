@@ -32,12 +32,15 @@
                            ら目標の式にいかにたどり着けるかを考えることにほかなりません。</dd>
                          <dt>様々なコツ</dt>
                            <dd>自分で取り組んでいるとなかなか気が付かないちょっとしたコツを伝えること<br>
-                           を心がけています。</dd>
+                           を心がけています。特に方針の見つけ方を中心に考えています。</dd>
                     </dl>
                     <h3 class='goto_index'><a href='index.php'>トップページに戻る</a></h3>
              </section>
              <footer>
                <h3>学習舎の数学講座 &lt; &copy; &gt;</h3>
+               <p class='footer_infomation'>学習舎:千葉県船橋市東中山1丁目14番5号<br>
+                                            Tel:047-711-3080<br>
+                                            Email:info@find18teach.pro<br></p> 
              </footer>
        </body>
 </htlm>

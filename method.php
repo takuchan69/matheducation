@@ -5,7 +5,7 @@
              <meta charset='UTF-8'>
              <meta name='keywords' content=''>
              <meta name='description' content='method of how we teach math'>
-             <meta name='viewport' content='width=device-width'>
+             <meta name='viewport' content='width=device-width,ijnitial-csale=1'>
              <title>オンライン受講の方法</title>
              <link rel='stylesheet' href='styles.css'>
        </head>

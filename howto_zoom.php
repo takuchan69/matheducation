@@ -6,7 +6,7 @@
         <head>
               <meta charset='utf-8'>
               <meta name='description' content='Introduce how to use Zoom application'>
-              <meta name='viewport' content='width=device-width'>
+              <meta name='viewport' content='width=device-width,initial-scale=1'>
               <title>Zoomの使い方の案内</title>
               <link rel='stylesheet' href='styles.css'>
         </head>

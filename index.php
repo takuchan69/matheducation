@@ -3,7 +3,7 @@
 <html lang='ja'>
        <head>
          <meta charset='UTF-8'>
-         <meta name='viewport' content='width=device-width'>
+         <meta name='viewport' content='width=device-width,initial-scale=1'>
          <meta name='keywords' content='数学、医学部、大学受験、難関大学、プログラミング教育'>
          <title>学習舎</title>
          <link rel='stylesheet' href='styles.css'>
